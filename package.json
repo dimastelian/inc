@@ -1,0 +1,46 @@
+{
+  "name": "inc-game",
+  "version": "1.0.0",
+  "description": "incremental game set in space",
+  "main": "bin/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/server",
+    "dev": "node bin/server --dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimastelian/inc.git"
+  },
+  "author": "Stelian Dima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimastelian/inc/issues"
+  },
+  "homepage": "https://github.com/dimastelian/inc#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "commander": "^2.9.0",
+    "connect-redis": "^3.1.0",
+    "convict": "^1.5.0",
+    "convict-commander": "^1.0.0",
+    "cookie-parser": "^1.4.3",
+    "cookie-signature": "^1.0.6",
+    "csurf": "^1.9.0",
+    "ejs": "^2.5.5",
+    "ejs-locals": "^1.0.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "helmet": "^3.1.0",
+    "http": "0.0.0",
+    "lodash": "^4.17.2",
+    "moment": "^2.17.1",
+    "mongoose": "^4.7.3",
+    "morgan": "^1.7.0",
+    "node-uuid": "^1.4.7",
+    "redis": "^2.6.3",
+    "request": "^2.79.0",
+    "winston": "^2.3.0"
+  }
+}
