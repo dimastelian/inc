@@ -1,0 +1,8 @@
+{
+    redis: {
+        host:  ""
+    },
+    mongo: {
+        url: ""
+    }
+}

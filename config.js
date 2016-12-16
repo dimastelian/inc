@@ -24,7 +24,7 @@ var conf = convict({
   redis: {
       host: {
           format: String,
-          default: null,
+          default: process.env.IP,
           env: 'REDIS_HOST',
           arg: 'redis_host'
       },
@@ -44,7 +44,7 @@ var conf = convict({
   mongo: {
       url: {
           format: String,
-          default: null,
+          default: "mongod://"+process.env.IP,
           env: 'MONGO_URL',
           arg: 'mongo_url'
       }

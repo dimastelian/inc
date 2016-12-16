@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node bin/server",
-    "dev": "node bin/server --dev"
+    "dev": "node bin/server --env=development"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   "dependencies": {
     "bluebird": "^3.4.6",
     "body-parser": "^1.15.2",
+    "cacheman": "^2.2.1",
+    "cacheman-redis": "^1.1.2",
     "commander": "^2.9.0",
     "connect-redis": "^3.1.0",
     "convict": "^1.5.0",
